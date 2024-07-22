@@ -1,2 +1,2 @@
 # Apollo
-C++元编程示例
+Automatic Chemiluminescence Analyzer

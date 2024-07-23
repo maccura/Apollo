@@ -1,0 +1,369 @@
+﻿/* base_push_button类 Regular*/
+QWidget
+{
+	/* font-family: 思源黑体 CN Regular;*/
+	/* font: 75 14pt "思源黑体 CN Bold"; */
+	/* font: 57 14pt "思源黑体 CN Medium"; */
+	font: 57 14pt "HarmonyOS Sans SC Medium";
+}
+
+QLabel
+{
+	font-size: 14px;
+	color: #000000;
+}
+
+QToolTip 
+{
+	background-color: #262626; 
+	opacity: 0.8;
+	border: 1px solid black;
+	color: #ffffff;	
+}
+
+QComboBox
+{
+	background-color: #f2f2f2; 
+	color: #3c3c3c; 
+	border-radius: 4px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+QScrollBar 
+{
+    background-color: #F0F0F0;
+    border: none;
+    width: 10px;
+}
+
+
+QLineEdit
+{
+	background-color: #f2f2f2;
+	border-radius: 4px;
+}
+
+QSizeGrip
+{
+	background-color: transparent; 
+}
+
+QSpinBox::up-button 
+{
+	image: url(:/spinbox_up);
+}
+
+QSpinBox::down-button 
+{
+	image: url(:/spinbox_down);
+}
+
+QSpinBox::down-button:pressed 
+{
+	position: relative; 
+	top: 2px;
+}
+
+QSpinBox::up-button:pressed 
+{
+	position: relative; bottom: 1px;
+}
+
+QComboBox::drop-down 
+{
+	border-radius: 4px; 
+	color: #ffffff; 
+}
+
+QComboBox::down-arrow 
+{
+	image: url(:/arr_down);
+	subcontrol-origin: padding;
+    subcontrol-position: left;
+    right: 5px;
+}
+
+QComboBox::down-arrow:pressed 
+{
+	position: relative; 
+	top: 2px; 
+}
+
+
+QScrollBar::handle 
+{
+	background-color: #CCCCCC;
+	border-radius: 5px;
+}
+QScrollBar::add-line, QScrollBar::sub-line 
+{
+	background-color: #F0F0F0;
+}
+
+QScrollBar::add-page, QScrollBar::sub-page 
+{
+	background-color: none;
+}
+
+ReportDesign--base_mask_dialog
+{
+	background-color: transparent;
+}
+
+ReportDesign--base_mask_dialog QToolBar,
+ReportDesign--base_mask_dialog QMenuBar
+{
+	border-radius: 6px;
+	font: 12pt "HarmonyOS Sans SC Medium";
+}
+
+ReportDesign--gbase_push_button
+{
+	font-size: 16px;
+	border-radius: 6px; 
+	background-color: #57bd7c; 
+	border-width: 1px; 
+	color: #fefefe;
+} 
+
+ReportDesign--base_push_button
+{
+	font-size: 16px;
+	border-radius: 6px; 
+	background-color: #ffffff; 
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #e4e7ec;
+}
+
+ReportDesign--base_push_button#previewReportButton
+{
+	border-color: #57bd7c; 
+	color: #57bd7c;  
+	font-size: 16px;
+	border-width: 1px; 
+	border-radius: 4px;
+	padding: 2px 5px 2px 5px;
+}
+
+ReportDesign--gbase_push_button#exportReportButton
+{
+	color: #ffffff; 
+	font-size: 16px; 
+	border-radius: 4px;
+	padding: 2px 5px 2px 5px;
+} 
+
+ReportDesign--design_main_window .QMenu
+{ 
+	background-color: white; 
+	border-radius: 6px;
+}
+
+ReportDesign--design_main_window .QMenu::indicator
+{ 
+	image: none;
+}
+
+ReportDesign--design_main_window .QMenu::item 
+{
+	font-size: 14px; 
+	background-color: #ffffff; 
+	color: #333333;
+	padding: 20px 24px;
+	image: none;
+} 
+
+ReportDesign--design_main_window .QMenu::item:selected 
+{
+	background-color: #e3f2e8; 
+	color: #57bd7c;
+}
+
+ReportDesign--design_main_window .QMenu::right-arrow 
+{
+	margin-right: 10px; 
+}
+
+ReportDesign--design_main_window .QToolButton 
+{
+	border: none;
+}
+
+ReportDesign--design_main_window .QToolButton::menu-indicator
+{
+	image:none;
+}
+
+ReportDesign--design_main_window .QToolButton:hover 
+{
+	border-radius: 50%; 
+	background-color: #d9d9d9; 
+}
+
+ReportDesign--design_main_window .QDockWidget .QWidget
+{
+	background-color: white;
+}
+
+.ReportDesign--design_main_window QPushButton#watermarkSeting
+{
+	color: #57bd7c; 
+	font-size: 14px; 
+	border-radius: 6px; 
+	background-color: #ffffff;
+}
+
+/*ReportDesign--base_mask_dialog .QMenuBar
+{
+	color: #565656; 
+	font-size: 14px;
+}*/
+
+ReportDesign--Item_button
+{
+	background-color: #f7f7f7; 
+	border-radius: 4px;
+}
+
+ReportDesign--Item_button .QLabel
+{
+	color: #3c3c3c; 	
+	font-size: 14px;
+}
+
+ReportDesign--Item_button .QLabel#mask
+{
+	background-color: #7f7f7f7f;
+}
+
+ReportDesign--dialog_background#backLabel
+{
+	background-color: rgba(128, 128, 128, 128);
+} 
+
+ReportDesign--message_info_dialog QLabel
+{
+	font-size: 16px;
+}
+
+ReportDesign--module_type_dialog QTableWidget
+{
+	outline: none;
+	border: none;
+}
+
+ReportDesign--module_type_dialog QTableWidget::item 
+{
+	padding: 2px;
+}
+
+ReportDesign--module_type_dialog QTableWidget::item:selected
+{
+	background-color: #e3f2e8; 
+	border-radius: 4px;
+	border-width: 2px; 
+	border-style: solid; 
+	border-color: #47b347;
+}
+
+ReportDesign--module_file_button 
+{
+	border-radius: 4px;
+	border-color: #a8b2c2;
+	border-width: 1px; 
+	border: 1px solid black;
+}
+
+ReportDesign--module_file_button .QLabel
+{
+	font-size: 14px;
+}
+
+ReportDesign--module_file_button#emptyFileButton QLabel
+{
+	font-size: 16px;
+}
+
+ReportDesign--variable_edit_dialog QTextEdit
+{
+	border-radius: 4px; 
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #e4e7ec;
+	font-size: 14px; 
+}
+
+ReportDesign--variable_edit_dialog QTableWidget
+{
+	outline: none;
+}
+
+ReportDesign--variable_edit_dialog QTableWidget::item:selected
+{
+	background-color: #e3f2e8;
+	border-color: #e3f2e8;
+	font-size: 14px; 
+}
+
+ReportDesign--variable_edit_dialog  QHeaderView
+{
+	background-color: #ffffff;
+	font-size: 14px;
+}
+
+ReportDesign--watermark_setting_dialog QTextEdit
+{
+	background-color: #f2f2f2; 
+	border-radius: 4px;
+}
+
+ReportDesign--watermark_setting_dialog QPushButton#watermarkImageImport
+{
+	background-color: #f2f2f2; 
+	border-radius: 4px; 
+	font-size: 16px; 
+	color: #57bd7c;
+}
+
+ReportDesign--prop_color_button,
+ReportDesign--prop_line_edit QLabel, ReportDesign--prop_line_edit QLineEdit,
+ReportDesign--prop_spinbox_widget QSpinBox,ReportDesign--prop_spinbox_widget QLabel,
+ReportDesign--prop_combox
+{
+	background-color: #f2f2f2; 
+	border-radius: 2px; 
+	font-size: 12px; 
+}
+
+ReportDesign--base_prop_widget QLabel
+{
+	font-size: 13px; 
+}
+
+/* 未起作用，目前在代码中写入的样式表 */
+ReportDesign--design_widget QTabWidget#PageTabWidget	
+{
+	background-color: #ebeced;
+}
+
+ReportDesign--design_widget QPushButton#newReport	
+{
+	background-color: #57bd7c;
+	border-radius: 4px; 
+	color: #ffffff; 
+	font-size: 14px;
+}
+
+ReportDesign--preview_report_widget QPushButton
+{
+	background-color: #ffffff; 
+	border-radius: 6px; 
+	font-size: 18px; 
+	font-weight: normal;
+	line-height: 16px; 
+	color: #57bd7c;
+}
+/* 未起作用，目前在代码中写入的样式表 */
+
